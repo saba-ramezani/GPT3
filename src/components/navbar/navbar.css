@@ -20,6 +20,32 @@
 
 
 .gpt3__navbar-links_logo img {
-    width: 62.56px;
-    height: 16.02px;
+    width: 100px;
+    height: 40px;
+}
+
+
+.gpt3__navbar-links_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.gpt3__navbar-links_container p,
+.gpt3__navabr-sign p,
+.gpt3__navbar-menu_container p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin:0 1rem;
+    cursor: pointer;
+}
+
+.gpt3__navabr-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
