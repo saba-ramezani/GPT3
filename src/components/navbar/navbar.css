@@ -46,6 +46,22 @@
 
 .gpt3__navabr-sign {
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+}
+
+
+.gpt3__navbar-sign_signUpBtn {
+    padding: 0.5rem 1rem;
+    background: #df3308;
+    border-radius: 5px;
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }

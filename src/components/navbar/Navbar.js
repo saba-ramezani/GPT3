@@ -18,7 +18,9 @@ const Navbar = () => {
           <p><a href="#blog">Library</a></p>
         </div>
       </div>
-
+      <div className='gpt3__navbar-sign'>
+        <button className='gpt3__navbar-sign_signUpBtn' type='button' onClick={() => {console.log('Sign up pressed!')}}>Sign Up</button>
+      </div>
     </div>
   )
 }
