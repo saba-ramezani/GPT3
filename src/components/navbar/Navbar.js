@@ -19,6 +19,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className='gpt3__navbar-sign'>
+        <button className='gpt3__navbar-sign_signInBtn' type='button' onClick={() => {console.log('Sign in pressed!')}}>Sign In</button>
         <button className='gpt3__navbar-sign_signUpBtn' type='button' onClick={() => {console.log('Sign up pressed!')}}>Sign Up</button>
       </div>
     </div>

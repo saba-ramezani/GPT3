@@ -52,6 +52,22 @@
 }
 
 
+.gpt3__navbar-sign_signInBtn {
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    background: rgba(0,0,0,0);
+    border-radius: 5px;
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: 1px solid rgb(165, 165, 165);
+    outline: none;
+    cursor: pointer;
+}
+
+
 .gpt3__navbar-sign_signUpBtn {
     padding: 0.5rem 1rem;
     background: #df3308;
