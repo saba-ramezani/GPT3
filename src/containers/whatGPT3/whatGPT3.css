@@ -61,12 +61,15 @@
     font-size: 16px;
     line-height: 30px;
     font-weight: 500;
-    color: #FF8A71;
+    color: #ffbcac;
     font-family: var(--font-family);
-    background: rgba(0,0,0,0);
+    background: rgba(0,0,0,0.35);
     outline: none;
-    padding: 0.5rem;
+    border: none;
+    padding: 0.5rem 1rem;
     cursor: pointer;
+    border-radius: 20px;
+
 }
 
 
