@@ -1,7 +1,7 @@
 {
   "name": "gpt3",
   "version": "0.1.0",
-  "homepage": "https://saba-ramezani.github.io/GPT3/",
+  "homepage": "https://saba-ramezani.github.io/GPT3",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
